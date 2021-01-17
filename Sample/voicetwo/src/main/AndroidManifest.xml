@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.depressiontest">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name=".VoiceActivity"
+            android:label="@string/voiceEmotion"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".StartVoice"
+            android:label="@string/voiceactivity"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".StartQuestionVoice"
+            android:label="@string/start_ques"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".QuestionActivity"
+            android:label="@string/question"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".ResultActivity"
+            android:label="@string/result_test"
+            android:launchMode="singleTop"
+            android:parentActivityName=".QuestionActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".QuestionActivity" />
+        </activity>
+
+        <activity android:name=".ReccomendActivity"
+            android:label="@string/recommend"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ExerciseActivity"
+            android:label="@string/exercise"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DietActivity"
+            android:label="@string/diet"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ExerciseInfo"
+            android:label="@string/exerciseInfo"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".YogaActivity"
+            android:label="@string/yoga"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".WorkoutActivity"
+            android:label="@string/workout"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".BreathingActivity"
+            android:label="@string/breathing"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".TreatmentActivity"
+            android:label="@string/treatment"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\Users\User\AndroidStudioProjects\A.I.D.-Face-Voice\Sample\voice\.cxx\cmake\debug\x86'
+ninja: no work to do.

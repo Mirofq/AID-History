@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">AID DEPRESSION TEST</string>
+    <string name="app_label">A.I.D.</string>
+    <string name="app_fullname">Am I Depressed?</string>
+    <string name="app_startvoice">Voice Detection</string>
+    <string name="app_startface">Face Detection</string>
+    <string name="voiceEmotion">Voice Emotion Detection</string>
+    <string name="start_ques">Start Questionnaire</string>
+    <string name="start_voice">Start Voice</string>
+    <string name="start_rec">Voice Activity</string>
+    <string name="textNeutral">neutrality</string>
+    <string name="textHappy">happiness</string>
+    <string name="textSad">sadness</string>
+    <string name="textAnger">anger</string>
+    <string name="textFear">fear</string>
+
+    <string name="app_detail">AM I DEPRESSED?</string>
+    <string name="voicedetection">Voice Emotion Recognition</string>
+    <string name="question">AID Questionnaire</string>
+    <string name="result_test">Result</string>
+    <string name="recommend">Recommendations</string>
+
+    <string name="_10_food_to_fight_depression">10 FOOD TO FIGHT DEPRESSION</string>
+    <string name="green_tea">Green Tea</string>
+    <string name="almond">Almond</string>
+    <string name="salmon">Salmon</string>
+    <string name="dark_chocolate">Dark Chocolate</string>
+    <string name="eggs">Eggs</string>
+    <string name="banana">Banana</string>
+    <string name="avocado">Avocado</string>
+    <string name="blueberry">Blueberry</string>
+    <string name="spinach">Spinach</string>
+    <string name="asparagus">Asparagus</string>
+
+    <string name="exercise">Exercise</string>
+    <string name="exerciseInfo">Treating Depression</string>
+    <string name="yoga">Treating Depression</string>
+    <string name="breathing">Treating Depression</string>
+    <string name="workout">Treating Depression</string>
+    <string name="diet">Diet</string>
+    <string name="treatment">Treatments</string>
+    <string name="voiceemotion">voicemotion</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="voiceactivity">Voice Activity</string>
+</resources>
